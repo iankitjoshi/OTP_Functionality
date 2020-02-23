@@ -1,0 +1,45 @@
+BUILD A SIMPLE CONTACTS APP (WITH OTP SMS SENDING FUNCTIONALITY)
+
+
+In this app we can add the users and send the message to the user mobile bumber (that was automatically genrated otp).In message page we see the sent message list and info of the messages.  With the Validations.
+
+Video Link :- https://drive.google.com/open?id=1SgdSjHnfItwlmvv7GBC0SPsiXnwWlZ0h
+
+to start this file console this :-
+npm run dev 
+
+
+This is build By
+create-react-app and NodeJs 
+
+ReactJs
+NodeJs
+ExpressJs
+mongoose
+BootStrap
+concurrently 
+cors
+twilio
+sweetalert2
+
+
+In this web app i add the Functionality of 
+User Page:-
+Add the usesr
+List of userss
+User delete button
+User info page
+Message Send Page ( by twilio )
+(auto otp genrate)
+
+Messagae Page :-
+
+Message sent list
+Message automatically when it was sent
+Message delete button
+Message Show(info) page
+
+
+By:- Ankit Joshi 
+      (iankitjoshi)
+	
