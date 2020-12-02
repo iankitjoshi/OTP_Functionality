@@ -12,16 +12,17 @@ const port = 3010
 app.use(express.json())
 app.use(cors())
 
-app.use(express.static(path.join("client", "build")))
+app.use(express.static(path.join(__dirname, './', 'client', 'build')));
 
 app.get('/',(req,res) => {
-    res.json('Welcome to Kisan Networking')
+    res.json('Welcome to OTP Functionality.')
 })
-app.use('/',router)
 
-app.get("/*", (req, res) => {
-    res.sendFile(path.join("client", "build", "index.html"))
-})
+app.use('/api',router)
+
+app.get('/*', function (req, res) {
+    res.sendFile(path.join(__dirname, './', 'client', 'build', 'index.html'));
+  });
 
 app.listen(port , () => {
     console.log('Listening on port',port)
