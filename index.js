@@ -7,7 +7,7 @@ const path = require('path')
 const app = express()
 setUpDB()
 
-const port = 3010
+const port = 3000
 
 app.use(express.json())
 app.use(cors())
